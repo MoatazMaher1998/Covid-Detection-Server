@@ -7,11 +7,6 @@ app.use(bodyParser.json());
 var multiparty = require('multiparty');
 const port = process.env.PORT || 8080;
 //_________________________________//
-const AWS = require('aws-sdk')
-const fs = require('fs')
-const ACCESS_KEY_ID = "AKIAXNLLRY7K57RVYJ7D"
-const SECRET_ACCESS_KEY = process.env.AWS_Secret
-const BUCKET_NAME = "alexunicovidapi"
 app.get('/*',function(req,res){
     res.send("Welcome To Our Covid API Post Your Data Please");
 });
