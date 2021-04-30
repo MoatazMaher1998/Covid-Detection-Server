@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b0eb791-2136-48ef-a2c9-83ae53185d24" name="Default Changelist" comment="" />
+    <list default="true" id="1b0eb791-2136-48ef-a2c9-83ae53185d24" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CovidModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/CovidModel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weights" beforeDir="false" afterPath="$PROJECT_DIR$/weights" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,9 +37,9 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1619799783192">
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1619802912314">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1619799783192" />
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1619802912314" />
   </component>
 </project>
