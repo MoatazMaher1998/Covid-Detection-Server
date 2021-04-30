@@ -20,7 +20,7 @@ app.post('/API',function(req,res){
         if(files['img'] == null){console.log("wrong Input"); return;}
         console.log(files['img'][0].path);
         var spawn = require("child_process").spawn; 
-        var process = spawn('python',["./last_ml.py",files['img'][0].path] );
+        var process = spawn('python',["./last_ml.py",files['file'][0].path] );
                              process.stdout.on('data', async function(data) { 
                                 console.log(data.toString());
                                 const value = await data.toString();
