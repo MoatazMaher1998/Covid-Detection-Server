@@ -9,6 +9,7 @@
   "author": "Moataz Maher Farhoud",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.1",
     "multiparty": "^4.2.2",
     "performance": "^1.4.0"
