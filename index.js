@@ -17,10 +17,11 @@ app.post('/API',function(req,res){
     var start = new Date().getTime();
     var form = new multiparty.Form();
     form.parse(req, function(err, fields, files) {
-        if(files['file'] == null){console.log("wrong Input"); return;}
+        if(files['file'] == null){console.log("wrong Input"); res.status(500);
+        res.send("Server Error"); return;}
         console.log(files['file'][0].path);
         var spawn = require("child_process").spawn; 
-        var process = spawn('python',["./last_ml.py",files['file'][0].path] );
+        var process = spawn('python',["./CovidModel.py",files['file'][0].path] );
                              process.stdout.on('data', async function(data) { 
                                 console.log(data.toString());
                                 const value = await data.toString();
