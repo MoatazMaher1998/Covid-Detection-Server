@@ -1,0 +1,18 @@
+{
+  "name": "covid_api",
+  "version": "1.0.0",
+  "description": "API For covid detection of images",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Moataz Maher Farhoud",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.891.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "multiparty": "^4.2.2",
+    "performance": "^1.4.0"
+  }
+}
