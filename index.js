@@ -17,7 +17,7 @@ app.post('/API',function(req,res){
     var start = new Date().getTime();
     var form = new multiparty.Form();
     form.parse(req, function(err, fields, files) {
-        if(files['img'] == null){console.log("wrong Input"); return;}
+        if(files['file'] == null){console.log("wrong Input"); return;}
         console.log(files['img'][0].path);
         var spawn = require("child_process").spawn; 
         var process = spawn('python',["./last_ml.py",files['file'][0].path] );
