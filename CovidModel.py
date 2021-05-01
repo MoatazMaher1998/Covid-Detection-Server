@@ -32,7 +32,7 @@ x=base_model.output
 x = tf.keras.layers.Dense(3, activation='softmax')(x)
 model = tf.keras.models.Model(inputs = base_model.input, outputs = x)
 
-infile = open("weights",'rb')
+infile = open("weightsCovid",'rb')
 weights_update = pickle.load(infile)
 infile.close()
 
